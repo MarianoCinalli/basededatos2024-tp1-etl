@@ -53,6 +53,8 @@ source venv/bin/activate
 Para correr
 
 ```bash
+# Borrar datos viejos
+rm amazon_books.db
 # Inicializar la base de datos
 bash init.sh
 # Ingresar datos
