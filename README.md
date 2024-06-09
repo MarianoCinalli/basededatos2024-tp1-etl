@@ -20,7 +20,7 @@ unzip amazon-books-dataset.zip
 - `Number of Reviews`: Entero. Tiene que ser mayor o igual a cero. Si es menor que cero se usa `null`.
 - `Ratings`: Punto flotante. Tiene que estar entre 1 y 5. Si no se usa `null`.
 - `Total Reviews`: Entero. Tiene que ser mayor o igual a cero. Si es menor que cero se usa cero.
-- `Price`: Entero. Tiene que ser mayor o igual a cero. Si es menor que cero se usa `null`.
+- `Price`: Punto flotante. Tiene que ser mayor o igual a cero. Si es menor que cero se usa `null`.
 - `Language`: String. Puede ser vacío.
 - `Category`: String. Puede ser vacío.
 
